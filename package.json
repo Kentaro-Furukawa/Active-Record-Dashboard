@@ -1,7 +1,7 @@
 {
   "name": "active-record-dashboard-app",
   "version": "1.0.0",
-  "description": "Electron app",
+  "description": "Active Record Dashboard: Sharing your sate in the team.",
   "main": "main.js",
   "scripts": {
     "tw": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
@@ -11,6 +11,7 @@
   "license": "MIT",
   "devDependencies": {
     "electron": "^18.0.4",
+    "electron-builder": "^23.0.3",
     "tailwindcss": "^3.0.24"
   }
 }
