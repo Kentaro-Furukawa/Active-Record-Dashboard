@@ -1,17 +1,28 @@
-* Active Record Dashboard
+# Active Record Dashboard
 ---
-** Overview
+## Overview
+
 Active Record Dashboard is...
 
 ---
-** How to install
+## How to install
+
+steps
 
 ---
-** Initial Setup from admin page.
+## Initial Setup from admin page
+
+steps
 
 ---
-** User Guide
+
+## User Guide
+steps
 
 ---
-** Dev notes
+
+## Dev notes
+steps
+
+---
 
