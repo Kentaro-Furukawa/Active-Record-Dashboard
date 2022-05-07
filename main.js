@@ -19,7 +19,7 @@ const initDirs = [
   { dir: "user", files: ["user.json"] }
 ];
 
-const dataDir = path.join(__dirname, '../app-data');
+const dataDir = path.join(__dirname, '../../app-data');
 
 // make initial dirs
 initDirs.forEach((initDir) => {
@@ -233,7 +233,7 @@ const exportRecordLength = filteredExportJsonData.length;
 
   const exportJsonFilename = `record-${startDate}-to-${endDate}.json`;
   filteredExportJsonData = JSON.stringify(filteredExportJsonData, null, 2);
-  fs.writeFileSync(path.join(__dirname, exportJsonFilename), filteredExportJsonData);
+  fs.writeFileSync(path.join(__dirname, `../../../../${exportJsonFilename}`), filteredExportJsonData);
 
   return `Flie exported. Record count: ${exportRecordLength}`;
 });
