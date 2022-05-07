@@ -1,6 +1,6 @@
 {
   "name": "active-record-dashboard-app",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Active Record Dashboard: Sharing your sate in the team.",
   "main": "main.js",
   "scripts": {
