@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <link rel="stylesheet" href="./dist/output.css">
+  <script src="./theme.js"></script>
+  <script src="./dist/feather.min.js"></script>
+  <title>Electron app tailwind css</title>
+</head>
+
+<body>
+  <div id="body-content">
+    <div class="flex">
+      <section class="content-container">
+        <section id="top-navigation">
+          <div class="user-select">
+            <select id="user-selecter">
+              <option value="" disabled selected>Select user...</option>
+            </select>
+          </div>
+
+          <div class="top-navigation-icons">
+            <div class="refresh-button-wrap">
+              <button id="refresh-button">
+                <i data-feather="rotate-cw"></i>
+              </button>
+            </div>
+            <div class="topbar-divider"></div>
+            <div class="theme-toggle-button">
+              <button>
+                <i data-feather="sun"></i>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="main-content">
+          <div class="recipient-label"></div>
+          <section id="record-form-section">
+            <form id="record-form">
+              <div class="record-form-first">
+                <div class="record-input-wrap">
+                  <input id="record-input" type="text" placeholder="Enter here...">
+                </div>
+                <div class="record-send-wrap">
+                  <button id="record-send-button">
+                    <i data-feather="send"></i>
+                  </button>
+                </div>
+                <div class="record-clear-wrap">
+                  <button id="record-clear-button">
+                    <i data-feather="trash-2"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="record-form-second">
+                <div class="record-tag-wrap">
+                  <button id="record-tag-button">
+                    <i data-feather="tag"></i>
+                  </button>
+                </div>
+                <div class="record-flash-wrap">
+                  <button id="record-flash-button">
+                    <i data-feather="zap"></i>
+                  </button>
+                </div>
+              </div>
+              <p class="record-form-message"></p>
+            </form>
+          </section>
+          <section class="active-record-table-section">
+            <table id="active-record-table">
+              <thead>
+                <tr>
+                  <th class="th-key">Key</th>
+                  <th class="th-time">Time</th>
+                  <th class="th-Value">Value</th>
+                </tr>
+              </thead>
+              <tbody id="active-record-table-body">
+              </tbody>
+            </table>
+          </section>
+        </section>
+      </section>
+    </div>
+    <section class="sidebar-section">
+      <div class="current-state-icon">
+      </div>
+      <hr class="sidebar-hr" />
+      <div class="state-icon-button-container"></div>
+      <hr class="sidebar-hr" />
+      <button class="recipient-icon-button sidebar-icon group recipient-icon">
+        <i data-feather="inbox"></i>
+        <span class="sidebar-caption group-hover:scale-100">
+          Recipient
+        </span>
+      </button>
+      <div id="al-modal-icon-btn-wrap">
+        <button id="al-modal-icon-btn">
+          <i data-feather="more-horizontal"></i>
+        </button>
+      </div>
+    </section>
+
+
+
+    <div id="al-modal-bg">
+      <div id="al-modal-content">
+        <h2 id="al-modal-h">Admin Login</h2>
+        <button id="al-modal-close-btn"><i data-feather="x-circle"></i></button>
+        <p id="al-msg"></p>
+        <form>
+          <input id="al-pass-input" type="password" name="al-pass" placeholder="Password...">
+          <label id="al-pass-label" for="al-pass"></label>
+          <div>
+            <button id="al-submit" type="submit">
+              <i data-feather="log-in"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div id="tag-modal-bg">
+      <div id="tag-modal-content">
+        <button id="tag-modal-close-btn"><i data-feather="x-circle"></i></button>
+        <form>
+          <input id="tag-value-input" type="text" name="tagValue" placeholder="Value...">
+          <p id="t-msg"></p>
+          <div id="tag-icons-container">
+          </div>
+          <div>
+            <button id="tag-submit-btn" type="submit">
+              <i data-feather="send"></i>
+            </button>
+          </div>
+          <input id="tag-comment-input" type="text" name="tagComment" placeholder="(Optional) Comment...">
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="./renderer.js"></script>
+</body>
+
+</html>

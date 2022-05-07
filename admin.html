@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; script-src 'self' 'unsafe-eval'"> -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <link rel="stylesheet" href="./dist/output.css">
+  <script src="./theme.js"></script>
+  <script src="./dist/feather.min.js"></script>
+    <title>Admin</title>
+</head>
+
+<body id="admin-body">
+    <h1>Admin: <span id="admin-username"></span></h1>
+    <hr class="hr-x">
+    <div class="columns-container">
+        <div class="column-left">
+            <div class="column-left-header">
+                <h2>User list :</h2>
+                <button type="button" id="user-list-edit" class="edit-on" ><i data-feather="edit-3"></i></button>
+            </div>
+            <form>
+                <textarea name="userlist" id="userlist-input" cols="30" rows="10" disabled></textarea>
+                <p id="userlist-msg"></p>
+                <button type="submit" id="userlist-submit" disabled><i data-feather="save"></i></button>
+                <button type="reset" id="userlist-reset" disabled><i data-feather="x-octagon"></i></button>
+            </form>
+        </div>
+        <div class="column-right">
+            <div class="export-json-file-container">
+                <h2>Export json file :</h2>
+                <p>Select date range, and click to export.</p>
+                <form class="export-json-file-form">
+                    <div class="export-json-start-date-container">
+                        <label for="export-json-start-date">Start date:</label>
+                        <input name="export-json-start-date" id="export-json-start-date" type="date">
+                    </div>
+                    <div class="export-json-end-date-container">
+                        <label for="export-json-end-date">End date:</label>
+                        <input name="export-json-end-date" id="export-json-end-date" type="date">
+                    </div>
+                    <button type="submit" id="export-json-file-submit"><i data-feather="file-text"></i></button>
+                    <p id="export-json-msg"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./renderer-admin.js"></script>
+</body>
+
+</html>

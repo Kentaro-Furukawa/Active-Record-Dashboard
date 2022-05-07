@@ -1,0 +1,16 @@
+{
+  "name": "active-record-dashboard-app",
+  "version": "1.0.0",
+  "description": "Electron app",
+  "main": "main.js",
+  "scripts": {
+    "tw": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "start": "electron ."
+  },
+  "author": "Kentaro Furukawa",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^18.0.4",
+    "tailwindcss": "^3.0.24"
+  }
+}
