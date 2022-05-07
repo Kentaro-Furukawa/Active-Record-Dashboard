@@ -2,6 +2,7 @@
 .vscode
 node_modules
 dist
-.app-data
+app-data
 package-lock.json
 yarn.lock
+output.css

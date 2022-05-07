@@ -19,7 +19,7 @@ const initDirs = [
   { dir: "user", files: ["user.json"] }
 ];
 
-const dataDir = path.join(__dirname, '.app-data');
+const dataDir = path.join(__dirname, '../app-data');
 
 // make initial dirs
 initDirs.forEach((initDir) => {
