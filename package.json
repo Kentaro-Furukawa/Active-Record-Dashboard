@@ -1,13 +1,13 @@
 {
-  "name": "active-record-dashboard-app",
+  "name": "active-record-dashboard",
   "version": "0.0.0",
-  "description": "Active Record Dashboard: Sharing your sate in the team.",
+  "description": "Active Record Dashboard: Sharing your state in the team.",
   "main": "main.js",
   "scripts": {
     "tw": "tailwindcss -i ./src/input.css -o ./output.css --watch",
     "start": "electron .",
     "app:dir": "electron-builder --dir",
-    "app:dist": "electron-builder -mwl"
+    "app:dist": "electron-builder -mw"
   },
   "build": {
     "appId": "com.active-record-dashboard.app",
