@@ -49,7 +49,9 @@ If you are in charge of recipient, click recipient button, then recipient label 
 
 * ⚡️ Spark Send ⚡️
   
-  This feature is even much faster than flash send, if you have valid incident number in you clipboard, then pressing `Cmd/Ctrl + Shift + E` will send your clipped incident number and update the record table. This shortcut key is enabled globally, so you can use this while focusing on Google Chrome or any other application.
+  `Cmd/Ctrl + Shift + E`
+
+  This feature is even much faster than flash send, if you have valid incident number in you clipboard, then pressing the shortcut will send your clipped incident number and update the record table. This shortcut key is enabled globally, so you can use this while focusing on Google Chrome or any other application.
 
 
 
