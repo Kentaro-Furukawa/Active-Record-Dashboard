@@ -5,7 +5,7 @@
 
 It is coming out of the box! You barely need any configuration to start using it.
 
-![teamwork-cat-dog](https://github.com/davidtheclark/gifs/blob/master/teamwork-cat-dog.gif)
+![Screen_Recording](https://github.com/Kentaro-Furukawa/Active-Record-Dashboard/blob/main/images/Screen_Recording.gif)
 
 
 ---
