@@ -5,6 +5,9 @@
 
 It is coming out of the box! You barely need any configuration to start using it.
 
+![teamwork-cat-dog](https://github.com/davidtheclark/gifs/blob/master/teamwork-cat-dog.gif)
+
+
 ---
 ## How to install
 
