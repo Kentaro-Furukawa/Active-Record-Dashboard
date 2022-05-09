@@ -9,12 +9,12 @@ It is coming out of the box! You barely need any configuration to start using it
 
 
 ---
-## How to install
+## Installation
 
 ~~You can download from [Releases](https://github.com/Kentaro-Furukawa/Active-Record-Dashboard/releases).~~
 
 ---
-## Distribute application
+## Distribution
 
 ### Prerequisites
 
