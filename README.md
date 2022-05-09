@@ -8,7 +8,33 @@ It is coming out of the box! You barely need any configuration to start using it
 ---
 ## How to install
 
-You can download from [Releases](https://github.com/Kentaro-Furukawa/Active-Record-Dashboard/releases).
+~~You can download from [Releases](https://github.com/Kentaro-Furukawa/Active-Record-Dashboard/releases).~~
+
+---
+## Distribute application
+
+### Prerequisites
+
+* `nodejs`
+* `git`
+* `yarn` \*Recommended, but `npm` or `pnpm` should work as well.
+
+Run the following commands in your terminal.
+
+```bash
+git clone https://github.com/Kentaro-Furukawa/Active-Record-Dashboard.git
+
+cd Active-Record-Dashboard
+
+yarn add // OR npm install
+
+yarn tw // OR npm run tw
+
+yarn electron-builder // OR npm run electron-builder
+```
+Now `dist` folder should be created in the root directory.
+
+Find the application somewhere in the `dist` folder.
 
 ---
 ## User Guide
