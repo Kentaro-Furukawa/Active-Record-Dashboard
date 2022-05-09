@@ -7,12 +7,18 @@
     "tw": "tailwindcss -i ./src/input.css -o ./output.css --watch",
     "start": "electron .",
     "app:dir": "electron-builder --dir",
-    "app:dist": "electron-builder -mw"
+    "app:dist-mw": "electron-builder -mw",
+    "app:dist-m": "electron-builder -m",
+    "app:dist-w": "electron-builder -w"
   },
   "build": {
     "appId": "com.active-record-dashboard.app",
+    "productName": "Active Record Dashboard",
     "mac": {
       "category": "Productivity"
+    },
+    "win": {
+      "target": "nsis"
     }
   },
   "author": "Kentaro Furukawa",
