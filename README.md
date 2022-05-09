@@ -119,7 +119,7 @@ For some purposes, you may want to export records and analyze activity, tendency
 
 ## Behind the scene
 
-You may need to know what is going in the backend of this application, but here are some explanation of the flow behind.
+You may want to know what is going in the backend of this application, but here are some explanation of the flow behind.
 
 ### Where and how the records and other data stored?
 When you start the application, it will check if the necessary directories exist, if not, creates accordingly.
