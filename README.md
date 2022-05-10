@@ -35,7 +35,7 @@ yarn tw // OR npm run tw
 
 yarn electron-builder // OR npm run electron-builder
 ```
-Now `dist` folder should be created in the root directory.
+Now `dist` folder is created in the root directory.
 
 Find the application somewhere in the `dist` folder.
 
@@ -71,12 +71,12 @@ If you are in charge of recipient, click recipient button, then recipient label 
 
 ### Cool features
 
-* ✨ Flash Send ✨
+* ✨ Flash Sending ✨
 
   This is one click send feature, if you have valid incident number in your clipboard, then click the flash button, then send the incident number and update if it is not taken.
 
 
-* ⚡️ Spark Send ⚡️
+* ⚡️ Spark Sending ⚡️
   
   `Cmd/Ctrl + Shift + E`
 
@@ -127,7 +127,7 @@ The file structure is like this.
 
 
 ```
-* Root is location of Active Record Dashbaord.app
+* Root is representing the application.
 
 Root ── Contents ─┬── app-data ─┬── active ── activeRecord.json
                   ┊      ┊      │
