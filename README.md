@@ -5,7 +5,7 @@
 
 It is coming out of the box! You barely need any configuration to start using it.
 
-![Screen_Recording](https://user-images.githubusercontent.com/11044479/167597828-875b0fc4-4729-450f-a2d2-a10df622d8e0.gif)
+https://user-images.githubusercontent.com/11044479/167601147-c54ac946-73f0-4b81-9e7e-a1bea29eda7f.mov
 
 ---
 ## Installation
@@ -92,8 +92,9 @@ If you are in charge of recipient, click recipient button, then recipient label 
 ### Add users
 When you run the application for the first time, the first thing you may want to do is adding users.
 
-\*Initially, `Admin` is only registered username.
+https://user-images.githubusercontent.com/11044479/167600913-1e128078-0451-4a80-a071-910f0214b6bb.mov
 
+\*Initially, `Admin` is only registered username.
 
 1. Select a user in the top bar section.
 2. Click `⋯` in the bottom left corner to show admin login modal.
