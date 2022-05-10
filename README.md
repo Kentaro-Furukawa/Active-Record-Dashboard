@@ -92,7 +92,7 @@ If you are in charge of recipient, click recipient button, then recipient label 
 ### Add users
 When you run the application for the first time, the first thing you may want to do is adding users.
 
-https://user-images.githubusercontent.com/11044479/167600913-1e128078-0451-4a80-a071-910f0214b6bb.mov
+![adding-user](https://user-images.githubusercontent.com/11044479/167740741-67bde8f2-a272-4c28-8b7f-913a5b43570e.gif)
 
 \*Initially, `Admin` is only registered username.
 
