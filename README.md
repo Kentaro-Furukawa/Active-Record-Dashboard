@@ -107,6 +107,9 @@ https://user-images.githubusercontent.com/11044479/167600913-1e128078-0451-4a80-
 
 ### Export records in a JSON file
 For some purposes, you may want to export records and analyze activity, tendency or something. You can easily export records by the following steps.
+
+![exporting-json](https://user-images.githubusercontent.com/11044479/167739926-07707991-b28c-400d-a24c-2bde3bb2361a.gif)
+
 1. Open admin page
 2. Set a date range you want to export
 3. Click the orange button
