@@ -5,7 +5,7 @@
 
 It is coming out of the box! You barely need any configuration to start using it.
 
-https://user-images.githubusercontent.com/11044479/167601147-c54ac946-73f0-4b81-9e7e-a1bea29eda7f.mov
+![overview](https://user-images.githubusercontent.com/11044479/167739530-d66e0283-eef7-4e8c-a8d8-d75051e0d8ad.gif)
 
 ---
 ## Installation
