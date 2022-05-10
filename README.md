@@ -5,7 +5,6 @@
 
 It is coming out of the box! You barely need any configuration to start using it.
 
-![Screen_Recording](https://github.com/Kentaro-Furukawa/Active-Record-Dashboard/blob/main/images/Screen_Recording.gif)
 
 
 ---
