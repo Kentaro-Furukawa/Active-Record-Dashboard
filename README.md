@@ -72,6 +72,8 @@ If you are in charge of recipient, click recipient button, then recipient label 
 
 * ✨ Flash Sending ✨
 
+![flash-sending](https://user-images.githubusercontent.com/11044479/167598964-531208e3-899a-4add-917c-debcdd1feed7.gif)
+
   This is one click send feature, if you have valid incident number in your clipboard, then click the flash button, then send the incident number and update if it is not taken.
 
 
