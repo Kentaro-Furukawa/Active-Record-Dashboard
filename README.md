@@ -32,7 +32,7 @@ yarn add // OR npm install
 
 yarn tw // OR npm run tw
 
-yarn electron-builder // OR npm run electron-builder
+yarn app:dist // OR npm run app:dist
 ```
 Now `dist` folder is created in the root directory.
 
