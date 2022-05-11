@@ -70,18 +70,18 @@ If you are in charge of recipient, click recipient button, then recipient label 
 
 ### Cool features
 
-* ✨ Flash Sending ✨
+#### ✨ Flash Sending ✨
 
 ![flash-sending](https://user-images.githubusercontent.com/11044479/167598964-531208e3-899a-4add-917c-debcdd1feed7.gif)
 
-  This is one click send feature, if you have valid incident number in your clipboard, then click the flash button, then send the incident number and update if it is not taken.
+This is one click sending feature. If you have valid incident number in your clipboard, by clicking the flash button to send the incident number and updates if it is not taken.
 
 
-* ⚡️ Spark Sending ⚡️
+#### ⚡️ Spark Sending ⚡️
   
   `Cmd/Ctrl + Shift + E`
 
-  This feature is even much faster than flash send, if you have valid incident number in you clipboard, then pressing the shortcut will send your clipped incident number and update the record table. This shortcut key is enabled globally, so you can use this while focusing on Google Chrome or any other application.
+This feature is even much faster than flash sending. If you have valid incident number in you clipboard, by pressing the shortcut will send your clipped incident number and updates the record table. This shortcut key is enabled globally, so you can use this shortcut while focusing on Google Chrome or any other application.
 
 
 
