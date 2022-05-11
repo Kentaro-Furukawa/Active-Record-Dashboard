@@ -57,7 +57,7 @@ In the left sidebar, there are few buttons.
 The icon at the top indicates your current state.
 
 #### Input value
-You can input what you are working on, so you can type incident number, or just type "meeting", "lunch" or anything. Once input value in the input filed click purple button to submit. If already other user taken the incident, the top bar's color change to yellow and highlight the duplicated record in the table. If nobody taken, top bar's background change to green and update the record table.
+You can input what you are working on, so you can type incident number, or just type "meeting", "lunch" or anything. Once input a value in the input filed click purple button to submit. If already other user taken the incident, the top bar's color change to yellow and highlight the duplicated record in the table. If nobody taken, top bar's background change to green and update the record table.
 
 #### Tag Record
 Click Orange tag button shows modal window, and you can create a tag record. This is used for anything you want to notice others, such as "I will take care this later." or asking someone's advice.
