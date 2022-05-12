@@ -568,7 +568,7 @@ tagSubmitBtn.addEventListener('click', (e) => {
     e.preventDefault();
     if (tagValueInput.value.trim().length === 0) {
         tMsg.classList.add('t-msg-on');
-        tMsg.innerHTML = "Value is requred.";
+        tMsg.innerHTML = "Value is required.";
         tMsg.style.display = 'block';
         tagValueInput.focus();
 
