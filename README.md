@@ -149,9 +149,9 @@ Root ── Contents ─┬── app-data ─┬── active ── activeReco
                               
 ```
 
-`activeRecord.json` is what shown in the record table, when user update record, this file is updated and also push the record to the archive file, if it is in March 2022 → push to `archive-2022-03.json`.
+`activeRecord.json` is what shown in the record table, when user update record this file will be updated, and also the record will be pushed to an archive file, if it is in March 2022 → push to `archive-2022-03.json`.
 
-`arcive-year-month.json` will be created when new month starts.
+`archive-year-month.json` will be created when new month starts.
 
 `log` contains 3 files, but at the moment only uses `adminLog.json`, when someone logs in to admin page, the log data is push to `adminLog.json`.
 
