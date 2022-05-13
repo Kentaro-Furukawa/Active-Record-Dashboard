@@ -49,7 +49,7 @@ Active Record Dashboard is intended to build as an intuitive application, hopefu
 #### Select user
 Select your name in the top bar.
 
-\*In case your name is not in the option, you need to add you name from admin page.
+\*In case your name is not in the option, you need to add you name from admin page. go to [Add users](#add-users)
 
 #### Click your state
 In the left sidebar, there are few buttons.
