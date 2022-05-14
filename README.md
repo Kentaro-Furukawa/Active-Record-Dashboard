@@ -41,7 +41,7 @@ Find the application somewhere in the `dist` folder.
 ---
 ## User Guide
 
-Active Record Dashboard is intended to build as an intuitive application, hopefully you can use without much thinking. But there are some futures should be mentioned, and they may help your work.
+Active Record Dashboard is intended to build as an intuitive application, hopefully you can use without much thinking. But there are some features should be mentioned, and they may help your work.
 
 
 ### Basic flow
