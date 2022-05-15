@@ -30,7 +30,7 @@ cd Active-Record-Dashboard
 
 yarn add // OR npm install
 
-yarn tw // OR npm run tw
+npx tailwindcss -i ./src/input.css -o ./output.css
 
 yarn app:dist // OR npm run app:dist
 ```
