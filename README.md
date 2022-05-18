@@ -68,7 +68,7 @@ Click the `On call` button to update your state, if you have incident working on
 #### Recipient
 If you are in charge of recipient, click recipient button, then recipient label will be shown below the top bar.
 
-### Cool features
+### Notable Features
 
 #### ✨ Flash Sending ✨
 
