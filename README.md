@@ -99,11 +99,11 @@ When you run the application for the first time, the first thing you may want to
 1. Select a user in the top bar section.
 2. Click `⋯` in the bottom left corner to show admin login modal.
 3. Enter password : `admin` and submit.
-4. Then, admin page should be popped up.
-5. Click purple edit button to be able to edit user list.
+4. Then, admin page will be popped up.
+5. Click purple edit button to enable to edit the user list.
 6. Add username in the text area. \*Usernames need to be separated by new line(Enter).
 7. Then click yellow save button.
-8. Now user list is updated, go back to the main page and reload, you should see new users you added in the selection.
+8. Now user list is updated, go back to the main page and reload, now you see new users as you added in the selection.
 
 ### Export records in a JSON file
 For some purposes, you may want to export records and analyze activity, tendency or something. You can easily export records by the following steps.
@@ -124,10 +124,10 @@ For some purposes, you may want to export records and analyze activity, tendency
 
 ## Behind the scene
 
-You may not need to know what is going in the backend of this application, but here are some explanation of the flow behind.
+You may not need to know what is going in the backend of this application, but here are some explanations of the flow behind.
 
 ### Where and how the records and other data stored?
-When you start the application, it will check if the necessary directories exist, if not, creates accordingly.
+When you start the application, it will check if necessary directories and files exist, if not, creates accordingly.
 The file structure is like this.
 
 
