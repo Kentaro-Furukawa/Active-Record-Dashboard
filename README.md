@@ -36,7 +36,7 @@ yarn app:dist // OR npm run app:dist
 ```
 Now `dist` folder is created in the root directory.
 
-Find the application somewhere in the `dist` folder.
+Find an application somewhere in the `dist` folder.
 
 ---
 ## User Guide
